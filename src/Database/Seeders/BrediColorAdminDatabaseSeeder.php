@@ -1,6 +1,6 @@
 <?php
 
-namespace Bredi\BrediColorAdmin\Database\Seeders;
+namespace Brediweb\BrediColorAdmin\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;

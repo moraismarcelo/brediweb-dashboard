@@ -1,6 +1,6 @@
 <?php
 
-namespace Bredi\BrediColorAdmin\Http\Controllers;
+namespace Brediweb\BrediColorAdmin\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;

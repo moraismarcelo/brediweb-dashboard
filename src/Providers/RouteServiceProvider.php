@@ -1,6 +1,6 @@
 <?php
 
-namespace Bredi\BrediColorAdmin\Providers;
+namespace Brediweb\BrediColorAdmin\Providers;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;

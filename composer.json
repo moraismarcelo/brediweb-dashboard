@@ -10,7 +10,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Bredi\\BrediColorAdmin\\Providers\\BrediColorAdminServiceProvider"
+                "Brediweb\\BrediColorAdmin\\Providers\\BrediColorAdminServiceProvider"
             ],
             "aliases": {
                 
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Bredi\\BrediColorAdmin\\": "src/"
+            "Brediweb\\BrediColorAdmin\\": "src/"
         }
     },
     "minimum-stability": "dev",

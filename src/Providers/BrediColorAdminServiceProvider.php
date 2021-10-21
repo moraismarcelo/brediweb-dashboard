@@ -36,7 +36,7 @@ class BrediColorAdminServiceProvider extends ServiceProvider
         $this->app->booted(function() {
             try {
                 if (Schema::hasTable('configs')) {
-                    $config = (new \Brediweb\BrediDashboard\Repository\BrediDashboardRepository)->getConfig();
+                    $config = (new \Brediweb\BrediDashboard\Repositories\BrediDashboardRepository)->getConfig();
                     // $vendor = (!empty(config('bredidashboard.templates')[config('bredidashboard.default')])) ? config('bredidashboard.templates')[config('bredidashboard.default')] : 'bredicoloradmin';
                     $vendor = config('bredidashboard.templates')[config('bredidashboard.default')];
                     $includes = [
